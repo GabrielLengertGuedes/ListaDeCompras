@@ -1,27 +1,75 @@
-# Titulo do projeto
+# Lista de Compras
 
-Aplicação web de lista de compras para o curso de construção de páginas dinâmicas com JavaScript.
+Aplicação web desenvolvida com **HTML5, CSS3 e JavaScript** para praticar **manipulação do DOM**, modularização de scripts e interatividade em páginas web.
 
-## 🔨 Funcionalidades do projeto
+O projeto permite adicionar itens dinamicamente a uma lista de compras, marcar itens como concluídos e registrar a data e o horário em que cada item foi criado.
 
-A aplicação permite inserir itens em uma lista de forma dinâmica, permitindo a exclusão e edição dos mesmos. Os itens terão o nome e também a data e horário que foram criados. Também é possível selecionar um checkbox para informar que o item foi comprado.
+## Tecnologias utilizadas
 
-## ✔️ Técnicas e tecnologias utilizadas
+- HTML5  
+- CSS3  
+- JavaScript (ES6 Modules)
 
-As técnicas e tecnologias utilizadas pra isso são:
+## Conceitos praticados
 
-- `HTML`: criação dos elementos da tela;
-- `CSS`: estilização da aplicação;
-- `JavaScript`: construção de elementos dinâmicos através da manipulação do DOM.
+- Manipulação do DOM  
+- Modularização de código com `import` e `export`  
+- Criação dinâmica de elementos com `createElement()`  
+- Eventos com `addEventListener()`  
+- Validação de campos  
+- Exibição condicional de mensagens na interface  
+- Formatação de data e hora com `toLocaleDateString()` e `toLocaleTimeString()`
 
-## 🛠️ Abrir e rodar o projeto
+## Funcionalidades
 
-Após baixar o projeto, você pode abrir com o Visual Studio Code. Para isso, no menu superior, clique em:
+- Adição dinâmica de itens na lista de compras  
+- Validação para impedir itens vazios  
+- Marcação de itens comprados com checkbox  
+- Alteração visual dos itens concluídos com `line-through`  
+- Exibição da data e hora de criação de cada item  
+- Mensagem automática quando a lista está vazia  
 
-- **File** > **Open Folder** (ou alguma opção similar)
-- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
-- Por fim clique em OK
+## Estrutura do projeto
+```bash
+ListaDeCompras/
+├── index.html
+├── index.js
+├── styles.css
+├── README.md
+├── img/
+│   ├── bag.png
+│   ├── delete.svg
+│   └── edit.svg
+└── scripts/
+    ├── criarItemDaLista.js
+    ├── gerarDiaDaSemana.js
+    └── verificarListaVazia.js
+```
 
-Ao finalizar esses passos, você pode executar a aplicação com a extensão Live Server 🏆 
+## Como executar o projeto
 
+1. Clone ou baixe este repositório  
+2. Abra a pasta do projeto no VS Code  
+3. Execute com a extensão **Live Server**
 
+Ou, se preferir, abra o arquivo `index.html` diretamente no navegador.
+
+## Objetivo do projeto
+
+Praticar fundamentos de **JavaScript aplicado ao desenvolvimento web**, com foco em criação dinâmica de elementos, organização de código em módulos e interação com o usuário.
+
+## Aprendizados com o projeto
+
+Durante o desenvolvimento deste projeto foram praticados conceitos importantes de front-end, como:
+
+- separação de responsabilidades em arquivos JavaScript  
+- atualização dinâmica da interface  
+- validação de entradas do usuário  
+- organização de código para facilitar manutenção  
+
+## Autor
+
+**Gabriel Lengert Guedes**
+
+Estudante de Engenharia de Software  
+GitHub: https://github.com/GabrielLengertGuedes

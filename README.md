@@ -23,7 +23,7 @@ O projeto permite adicionar itens dinamicamente a uma lista de compras, marcar i
 ## Funcionalidades
 
 - Adição dinâmica de itens na lista de compras  
-- Validação para impedir itens vazios  
+- Validação de entrada para impedir inserção de itens vazios
 - Marcação de itens comprados com checkbox  
 - Alteração visual dos itens concluídos com `line-through`  
 - Exibição da data e hora de criação de cada item  
